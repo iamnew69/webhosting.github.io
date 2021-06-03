@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(back2.jpg);
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 160%;
+  }
+
+.forgot {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px
+  }
+  
+  h1 {
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .forgot p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .forgot input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .forgot input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  
+  .forgot input[type="submit"] {
+    border: none;
+    height: 40px;
+    outline: none;background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+
+  .forgot input[type="submit"]:hover {
+    cursor: pointed;
+    background: #ffc107;
+    color: #000;
+  
+  }
+  
+  .forgot a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .forgot a:hover {
+    color: #ffc107
+  }
+  
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
